@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BuzzwordDx — Support</title>
+<style>
+  :root {
+    --bg: #0d0b22; --bg2: #1a1542; --purple: #7c3aed; --purple-l: #a855f7;
+    --pink: #ec4899; --gold: #fbbf24; --text: #ffffff; --muted: rgba(255,255,255,0.6);
+    --card: rgba(255,255,255,0.05); --border: rgba(255,255,255,0.12);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(160deg, #2d0b6b 0%, #1a1542 40%, #0d0b22 100%);
+    background-attachment: fixed; color: var(--text); line-height: 1.65;
+    min-height: 100vh; padding: 0 20px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 64px 0 80px; }
+  header { text-align: center; margin-bottom: 56px; }
+  .logo { font-size: 44px; font-weight: 800; letter-spacing: -1px;
+    background: linear-gradient(90deg, var(--gold), #fde68a);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .tag { color: var(--muted); font-size: 15px; letter-spacing: 3px; text-transform: uppercase; margin-top: 6px; }
+  h2 { font-size: 24px; margin: 44px 0 18px; color: var(--gold); }
+  h3 { font-size: 17px; margin: 22px 0 6px; color: var(--text); }
+  p { color: rgba(255,255,255,0.82); margin-bottom: 14px; }
+  a { color: var(--purple-l); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 18px; padding: 26px 28px; margin-bottom: 16px;
+  }
+  .contact {
+    background: linear-gradient(120deg, rgba(124,58,237,0.25), rgba(236,72,153,0.22));
+    border: 1px solid rgba(168,85,247,0.4); text-align: center; padding: 34px;
+  }
+  .contact a { font-size: 20px; font-weight: 700; color: var(--gold); }
+  .muted { color: var(--muted); font-size: 14px; }
+  footer { text-align: center; margin-top: 56px; color: var(--muted); font-size: 13px; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">BuzzwordDx</div>
+    <div class="tag">Support</div>
+  </header>
+
+  <div class="card contact">
+    <p class="muted" style="margin-bottom:10px;">Questions, bugs, or feedback? We reply within 48 hours.</p>
+    <a href="mailto:kjwseven@gmail.com">kjwseven@gmail.com</a>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="card">
+    <h3>How do I restore a purchase?</h3>
+    <p>If you reinstalled the app or got a new device, open the Store screen and tap <strong>Restore Purchases</strong>. Your unlocked question packs are tied to your Apple ID and will come back at no additional charge.</p>
+
+    <h3>I bought a pack but it's still locked.</h3>
+    <p>Make sure you're signed in with the same Apple ID used for the purchase, then tap <strong>Restore Purchases</strong> on the Store screen. If it still doesn't appear, email us the approximate date of purchase and we'll sort it out.</p>
+
+    <h3>How does the spaced repetition (Study) mode work?</h3>
+    <p>Every question you answer feeds an SM-2 algorithm — the same approach used by Anki. Diagnoses you miss resurface sooner; ones you nail get spaced further out, so review time goes where it's needed most.</p>
+
+    <h3>Can I turn off the sound or music?</h3>
+    <p>Yes. Tap the speaker icon in the top-right corner of any screen to toggle audio, or adjust sound, music, and haptics individually from the Profile screen.</p>
+
+    <h3>How do I stop the streak reminder notifications?</h3>
+    <p>Open the Profile screen and turn off notifications, or disable them for BuzzwordDx in the iOS <strong>Settings → Notifications</strong> menu.</p>
+
+    <h3>Is my progress backed up?</h3>
+    <p>Your scores, streaks, and study progress are stored locally on your device. They are not sent to any server, which also means they don't currently transfer between devices — we're exploring iCloud sync for a future update.</p>
+
+    <h3>Which subjects are covered?</h3>
+    <p>Ten specialties: Neurology, Cardiology, Dermatology, Endocrine, GI &amp; Hepatology, Pulmonology, Renal, Heme/Onc, Immunology, and OMM — each with free questions plus an optional expert-mode pack.</p>
+  </div>
+
+  <h2>Privacy</h2>
+  <div class="card">
+    <p>BuzzwordDx doesn't collect your personal data. Everything stays on your device. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+  </div>
+
+  <footer>
+    <p>© 2026 BuzzwordDx · <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+</div>
+</body>
+</html>
